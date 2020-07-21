@@ -19,6 +19,7 @@ jenny's(2) JH EH N IY S
 plane P L EY N
 put P UH T
 ship SH IH P
+ship(2) SH IY P
 tom T AA M
 tom's T AA M Z
 tom's(2) T AA M S

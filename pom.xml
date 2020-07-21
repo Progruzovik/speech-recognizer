@@ -85,15 +85,10 @@
             <artifactId>sphinx4-data</artifactId>
             <version>5prealpha-SNAPSHOT</version>
         </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-boot-starter</artifactId>
-            <version>3.0.0</version>
-        </dependency>
     </dependencies>
 
     <build>
-        <finalName>core-person-fio</finalName>
+        <finalName>speech-recognizer</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
