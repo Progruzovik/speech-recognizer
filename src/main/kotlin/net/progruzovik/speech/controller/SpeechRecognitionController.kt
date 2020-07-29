@@ -1,8 +1,8 @@
 package net.progruzovik.speech.controller
 
+import net.progruzovik.speech.model.dto.SpeechRecognitionResultDTO
 import net.progruzovik.speech.service.SpeechRecognitionService
 import org.springframework.web.bind.annotation.*
-import org.springframework.web.multipart.MultipartFile
 
 @RestController
 @RequestMapping("/speech")
@@ -10,7 +10,7 @@ class SpeechRecognitionController(private val speechRecognitionService: SpeechRe
 
     @CrossOrigin("*")
     @PostMapping
-    fun postSpeech(@RequestBody speech: ByteArray): HashSet<String> {
-        return speechRecognitionService.recognizeSpeech(speech)
+    fun postSpeech(@RequestParam excepted: String, @RequestBody speech: ByteArray): SpeechRecognitionResultDTO {
+        return speechRecognitionService.recognizeSpeech(excepted, speech)
     }
 }

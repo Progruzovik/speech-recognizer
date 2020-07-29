@@ -1,26 +1,48 @@
 ball B AO L
 bear B EH R
-beer(2) B IH R
-beer(3) B IY R
-box B AA K S
+bear(2) B EH ER
+bear(3) B IH R
+bear(4) B IH ER
+bear(5) B IY R
+bear(6) B IY ER
+bear(7) T EH D IH
+box B AH K S
+box(2) B AA K S
+box(3) B AO K S
 car K AH R
 car(2) K AA R
 cat K AE T
+cat(2) K IH T NG
+cat(3) K IH T EH N
 doll D AH L
 doll(2) D AA L
 doll(3) D AO L
 horse HH AO R S
+horse(2) HH AO S
 into IH N T OW
 into(2) IH N T UW
 into(3) IH N T AH
-jenny JH EH N IY
-jenny's JH EH N IY Z
-jenny's(2) JH EH N IY S
+jenny's JH EH N IY
+jenny's(2) JH EH N IY Z
+jenny's(3) JH EH N IY S
 plane P L EY N
+plane(2) P L EY
 put P UH T
+put(2) P UH
+put(3) B UH T
+put(4) B UH
 ship SH IH P
 ship(2) SH IY P
-tom T AA M
-tom's T AA M Z
-tom's(2) T AA M S
+the DH AH
+the(2) DH IY
+tom's T AH M
+tom's(2) T AH M Z
+tom's(3) T AH M S
+tom's(4) T AA M
+tom's(5) T AA M Z
+tom's(6) T AA M S
+tom's(7) T AO M
+tom's(8) T AO M Z
+tom's(9) T AO M S
 train T R EY N
+train(2) T R EY
